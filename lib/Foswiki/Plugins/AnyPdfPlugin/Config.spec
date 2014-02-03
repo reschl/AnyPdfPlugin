@@ -14,7 +14,7 @@ $Foswiki::cfg{Plugins}{AnyPdfPlugin}{pdfparams} = '/usr/share/phantomjs/examples
 $Foswiki::cfg{Plugins}{AnyPdfPlugin}{pdfformat} = 'A4';
 
 # **BOOLEAN**
-# Enable debugging (debug messages will be written to data/debug.txt)
+# Enable debugging (debug messages will be written to working/logs/debug.log)
 $Foswiki::cfg{Plugins}{AnyPdfPlugin}{Debug} = 0;
 
 

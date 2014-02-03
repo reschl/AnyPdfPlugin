@@ -85,7 +85,7 @@ sub completePageHandler {
 
     if ($exit) {
         throw Error::Simple(
-            "$pluginName -- execution of wkhtmltopdf failed ($exit)");
+            "$pluginName -- execution of pdfcmd failed ($exit)");
     }
 
     $_[0] = <$pdfFile>;
