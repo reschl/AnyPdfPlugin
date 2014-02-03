@@ -8,8 +8,8 @@ use warnings;
 use Foswiki::Func;
 use File::Temp qw( tempfile );
 
-our $VERSION           = '$Rev: 14875 (2012-05-21) $';
-our $RELEASE           = '1.1.0';
+our $VERSION           = '$Rev: 14875 (2014-01-31) $';
+our $RELEASE           = '1.0.0';
 our $SHORTDESCRIPTION  = 'Generate PDF files from topics';
 our $NO_PREFS_IN_TOPIC = 1;
 our $PDF_CMD           = $Foswiki::cfg{Plugins}{AnyPdfPlugin}{pdfcmd};
